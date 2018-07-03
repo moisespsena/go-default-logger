@@ -7,7 +7,7 @@ import (
 )
 
 var Format = logging.MustStringFormatter(
-	`%{color}%{time:15:04:05.000} %{module} %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message}`,
+	`%{color}%{time:15:04:05.000} %{level:.4s} [%{module}] %{shortfunc}: %{id:03x}%{color:reset} %{message}`,
 )
 
 var Backend = logging.NewLogBackend(os.Stderr, "", 0)
