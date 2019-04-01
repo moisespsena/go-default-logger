@@ -4,7 +4,7 @@ My Default Logger for GoLang projects
 ## Installation
 
 ```bash
-go get -u github.com/moisespsena/go-default-logger
+go get -u github.com/moisespsena-go/default-logger
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ go get -u github.com/moisespsena/go-default-logger
 ```go
 package main
 
-import "github.com/moisespsena/go-default-logger"
+import "github.com/moisespsena-go/default-logger"
 
 var log = defaultlogger.NewLogger("main")
 
@@ -29,7 +29,7 @@ package pkg
 import (
 	"os"
 	
-	"github.com/moisespsena/go-default-logger"
+	"github.com/moisespsena-go/default-logger"
 	"github.com/op/go-logging"
 )
 
@@ -47,7 +47,7 @@ package pkg
 import (
 	"os"
 	
-	"github.com/moisespsena/go-default-logger"
+	"github.com/moisespsena-go/default-logger"
 	"github.com/op/go-logging"
 )
 
